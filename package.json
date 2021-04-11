@@ -1,0 +1,34 @@
+{
+  "name": "jknodeweb1",
+  "version": "1.0.0",
+  "description": "jknodeweb1",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "babel-node src/app.js",
+    "dev": "nodemon",
+    "test": "mocha -r @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonneykang/jknodeweb1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonneykang/jknodeweb1/issues"
+  },
+  "homepage": "https://github.com/Jonneykang/jknodeweb1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/register": "^7.13.14",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "nodemon": "^1.18.7"
+  }
+}
